@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Hello, $USER user"
 echo "the hostname variable is: $HOSTNAME"
 echo "the host type is: $HOSTTYPE"
