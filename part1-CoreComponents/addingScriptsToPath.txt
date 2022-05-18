@@ -1,0 +1,5 @@
+the Path system variable ($PATH) is stored in the ~/.profile file. It contains (amongst others) informations on where to find the executable files.
+By adding a folder with scripts do the path variable, you make it possible to call them from anywhere
+
+Do this by simply adding the following line to the .profile file:
+export PATH=$PATH:<path to folder>
