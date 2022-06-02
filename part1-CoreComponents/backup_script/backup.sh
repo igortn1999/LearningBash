@@ -10,4 +10,4 @@
 # Usage
 # backup
 
-tar -cvf ./backups/backup-06-05-2022_15-50-22.tar files_to_backup 2>/dev/null
+tar -cvf ./backups/backup-$(date +%Y-%m-%d)_$(date +%H-%M-%S).tar files_to_backup 2>/dev/null
